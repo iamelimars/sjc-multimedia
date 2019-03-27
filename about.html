@@ -1,20 +1,21 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
+
+<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>unapp Template</title>
+	<title>SJC Multimedia</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
 	<meta name="author" content="" />
 
-  <!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
+	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content="" />
+	<meta property="og:image" content="" />
+	<meta property="og:url" content="" />
+	<meta property="og:site_name" content="" />
+	<meta property="og:description" content="" />
 	<meta name="twitter:title" content="" />
 	<meta name="twitter:image" content="" />
 	<meta name="twitter:url" content="" />
@@ -47,8 +48,28 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
-	</head>
-	<body>
+	<style>
+		.fa-star-half,
+		.fa-star {
+			color: #FFD700;
+		}
+
+		.video-hero .overlay {	
+			background: #1e5799;
+			background: -moz-linear-gradient(top, #1e5799 0%, #7db9e8 100%);
+			background: -webkit-linear-gradient(top, #1e5799 0%, #7db9e8 100%);
+			background: linear-gradient(to bottom, #1e5799 0%, #7db9e8 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e5799', endColorstr='#7db9e8', GradientType=0);
+		}
+
+		.logo-image {
+			transform: scale(0.7);
+		}
+	</style>
+
+</head>
+
+<body>
 
 	<div class="colorlib-loader"></div>
 
@@ -58,18 +79,11 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-2">
-							<div id="colorlib-logo"><a href="index.php">SJC.</a></div>
+							<div id="colorlib-logo"><a href="index.html">SJC.</a></div>
 						</div>
 						<div class="col-md-10 text-right menu-1">
 							<ul>
-								<li ><a href="index.php">Home</a></li>
-								<!-- <li class="has-dropdown">
-									<a href="work.html">Works</a>
-									<ul class="dropdown">
-										<li><a href="work-grid.html">Works grid with text</a></li>
-										<li><a href="work-grid-without-text.html">Works grid w/o text</a></li>
-									</ul>
-								</li> -->
+								<li><a href="index.html">Home</a></li>
 								<li><a href="services.html">Services</a></li>
 								<li class="active"><a href="about.html">About</a></li>
 								<li><a href="contact.php">Contact</a></li>
@@ -81,8 +95,10 @@
 			</div>
 		</nav>
 
-		<section id="home" class="video-hero" style="height: 500px; background-image: url(images/cover_img_1.jpg);  background-size:cover; background-position: center center;background-attachment:fixed;" data-section="home">
-		<div class="overlay"></div>
+		<section id="home" class="video-hero"
+			style="height: 500px; background-image: url(images/cover_img_1.jpg);  background-size:cover; background-position: center center;background-attachment:fixed;"
+			data-section="home">
+			<div class="overlay"></div>
 			<div class="display-t display-t2 text-center">
 				<div class="display-tc display-tc2">
 					<div class="container">
@@ -102,23 +118,42 @@
 				<div class="row row-pb-lg">
 					<div class="col-md-6 animate-box">
 						<div class="video colorlib-video" style="background-image: url(images/about-pic.jpg);">
-							<!-- <a href="https://vimeo.com/channels/staffpicks/93951774" class="popup-vimeo"><i class="icon-play3"></i></a> -->
-							<!-- <div class="overlay"></div> -->
 						</div>
 					</div>
 					<div class="col-md-6 animate-box">
 						<h2>About SJC Multimedia</h2>
 						<p>It is our pleasure to welcome you to our new Home Automation Innovation website.</p>
-						<p>Welcome to SJC Multimedia Design Home Theater Innovation Llc, we are family owned and operated company serving the South Florida Tri-county area. The leader in home integration, specializing in the installation of Home theater, structured wiring, home automation, lighting control, surveillance cameras and multi-room sound system and more. Whether you need troubleshooting on your existing system or help understanding your new system.</p>
-						<p>We are an established company delivering great expertise in Home Automation services of any complexity to clients throughout South Florida. Have you ever wanted to have complete control of your home's lighting and audio system? We can help set your home up with smart TV systems, lighting control, and automated shades. That is user-friendly for our customers with the push of a button.</p>
-						Our team has worked with some of the best brands in the business. From home automation to Multi-room Sound Systems and more, Our focus on providing a consistently high level of service has been a key component to our growth. We guarantee 100% client satisfaction with both our work and services.
+						<p>Welcome to SJC Multimedia Design Home Theater Innovation Llc, we are family owned and
+							operated company serving the South Florida Tri-county area. The leader in home integration,
+							specializing in the installation of Home theater, structured wiring, home automation,
+							lighting control, surveillance cameras and multi-room sound system and more. Whether you
+							need troubleshooting on your existing system or help understanding your new system.</p>
+						<p>We are an established company delivering great expertise in Home Automation services of any
+							complexity to clients throughout South Florida. Have you ever wanted to have complete
+							control of your home's lighting and audio system? We can help set your home up with smart TV
+							systems, lighting control, and automated shades. That is user-friendly for our customers
+							with the push of a button.</p>
+						Our team has worked with some of the best brands in the business. From home automation to
+						Multi-room Sound Systems and more, Our focus on providing a consistently high level of service
+						has been a key component to our growth. We guarantee 100% client satisfaction with both our work
+						and services.
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center colorlib-heading animate-box">
 						<h2>Our Vision</h2>
-						<p> Our vision is simple here at SJC Multimedia Design Home Theater Innovation Llc. While staying on the cutting edge of technology while meeting the ever-changing needs of our customers, We offer a broad range of services to our clients from Home theater set-up to a Multi-room sound system. Our dream here at SJC Multimedia Design Home Theater Innovation Llc is to meet every client need that comes through our door.</p>
-						<p>As we are a family owned and operated company we understand the ever-changing needs of our clients with this innovation of new technology. From smart home to everyday remote access. Not only to our residential but to our commercial clients as well. Establish in the early year of 2010, Our clients are the backbone of our business Our knowledgeable staff and team of expert technicians are ready to help you or answer any questions you may have from Structured Wiring, Lighting & Shade Control, Home theater & Media rooms, Surveillance cameras, Home Automation, Multi-room sound system, TV Mount, Install & Repairs and more.</p>
+						<p> Our vision is simple here at SJC Multimedia Design Home Theater Innovation Llc. While
+							staying on the cutting edge of technology while meeting the ever-changing needs of our
+							customers, We offer a broad range of services to our clients from Home theater set-up to a
+							Multi-room sound system. Our dream here at SJC Multimedia Design Home Theater Innovation Llc
+							is to meet every client need that comes through our door.</p>
+						<p>As we are a family owned and operated company we understand the ever-changing needs of our
+							clients with this innovation of new technology. From smart home to everyday remote access.
+							Not only to our residential but to our commercial clients as well. Establish in the early
+							year of 2010, Our clients are the backbone of our business Our knowledgeable staff and team
+							of expert technicians are ready to help you or answer any questions you may have from
+							Structured Wiring, Lighting & Shade Control, Home theater & Media rooms, Surveillance
+							cameras, Home Automation, Multi-room sound system, TV Mount, Install & Repairs and more.</p>
 
 					</div>
 				</div>
@@ -130,12 +165,18 @@
 				<div class="row row-pb-md">
 					<div class="col-md-6 colorlib-widget">
 						<h4>About SJC</h4>
-						<p>Welcome to SJC Multimedia Design Home Theater Innovation Llc, we are family owned and operated company serving the South Florida Tri-county area. the leader in home integration, specializing in the installation of home theater, structured wiring, home automation, lighting control, surveillance cameras and multi-room sound system and more.</p>
+						<p>Welcome to SJC Multimedia Design Home Theater Innovation Llc, we are family owned and
+							operated company serving the South Florida Tri-county area. the leader in home integration,
+							specializing in the installation of home theater, structured wiring, home automation,
+							lighting control, surveillance cameras and multi-room sound system and more.</p>
 						<p>
 							<ul class="colorlib-social-icons">
-								<li><a target="_blank" href="https://twitter.com/sjc_multimedia"><i class="icon-twitter"></i></a></li>
-								<li><a target="_blank" href="https://www.facebook.com/sjc.multimedia/"><i class="icon-facebook"></i></a></li>
-								<li><a target="_blank" href="https://www.instagram.com/sjc_multimedia/"><i class="icon-instagram"></i></a></li>
+								<li><a target="_blank" href="https://twitter.com/sjc_multimedia"><i
+											class="icon-twitter"></i></a></li>
+								<li><a target="_blank" href="https://www.facebook.com/sjc.multimedia/"><i
+											class="icon-facebook"></i></a></li>
+								<li><a target="_blank" href="https://www.instagram.com/sjc_multimedia/"><i
+											class="icon-instagram"></i></a></li>
 							</ul>
 						</p>
 					</div>
@@ -143,7 +184,7 @@
 						<h4>Information</h4>
 						<p>
 							<ul class="colorlib-footer-links">
-								<li><a href="index.php"><i class="icon-check"></i> Home</a></li>
+								<li><a href="index.html"><i class="icon-check"></i> Home</a></li>
 								<li><a href="services.html"><i class="icon-check"></i> Services</a></li>
 								<li><a href="about.html"><i class="icon-check"></i> About</a></li>
 								<li><a href="contact.php"><i class="icon-check"></i> Contact</a></li>
@@ -157,8 +198,10 @@
 						<h4>Contact Info</h4>
 						<ul class="colorlib-footer-links">
 							<li>Bringing great service to <br> all of South Florida</li>
-							<li><a target="_self" href="tel:+15616333994"><i class="icon-phone"></i> 561 633-3994</a></li>
-							<li><a href="mailto:Sjc.multimediadesign@gmail.com" target="_top"><i class="icon-envelope"></i>Sjc.multimediadesign@gmail.com</a></li>
+							<li><a target="_self" href="tel:+15616333994"><i class="icon-phone"></i> 561 633-3994</a>
+							</li>
+							<li><a href="mailto:Sjc.multimediadesign@gmail.com" target="_top"><i
+										class="icon-envelope"></i>Sjc.multimediadesign@gmail.com</a></li>
 						</ul>
 					</div>
 				</div>
@@ -168,12 +211,6 @@
 					<div class="row">
 						<div class="col-md-12 text-center">
 							<img class="logo-image d-sm-none d-md-block" src="images/sjc.png" alt="">
-							<!-- <p> -->
-								 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-<!-- Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> -->
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --><br>
-								<!-- Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a>, <a href="http://pexels.com/" target="_blank">Pexels</a> -->
-							<!-- </p> -->
 						</div>
 					</div>
 				</div>
@@ -207,5 +244,6 @@
 	<!-- Main -->
 	<script src="js/main.js"></script>
 
-	</body>
+</body>
+
 </html>
